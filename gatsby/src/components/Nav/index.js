@@ -1,8 +1,11 @@
 import { Link } from 'gatsby'
 import React, { useRef, useEffect, useState } from 'react'
-import { Header, Navigation, NavMenu } from './Nav.style'
+import { IoHomeOutline } from 'react-icons/io5'
+
+import { Header, Navigation, NavMenu } from './Nav.styles'
 import { useWindowSize } from '../../utils/useWindowSize'
 import { Container } from 'react-bootstrap'
+import Icon from '../Icon'
 
 export default function Nav() {
   const [isTilted, setIsTilted] = useState(false)

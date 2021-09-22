@@ -1,7 +1,13 @@
 import React from 'react'
+import { Seo } from '../../components'
 
 function ArchivePage() {
-  return <p>ArchivePage</p>
+  return (
+    <>
+      <Seo title="News Archive" />
+      <p>ArchivePage</p>
+    </>
+  )
 }
 
 export default ArchivePage

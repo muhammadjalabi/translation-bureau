@@ -1,7 +1,13 @@
 import React from 'react'
+import { Seo } from '../components'
 
 function ContactPage() {
-  return <p>ContactPage</p>
+  return (
+    <>
+      <Seo title="Contact us" />
+      <p>ContactPage</p>
+    </>
+  )
 }
 
 export default ContactPage

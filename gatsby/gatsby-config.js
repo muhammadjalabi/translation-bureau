@@ -10,6 +10,7 @@ dotenv.config({ path: '.env' })
 module.exports = {
   /* Your site config here */
   plugins: [
+    `gatsby-plugin-react-helmet`,
     'gatsby-plugin-styled-components',
     `gatsby-plugin-image`,
     {
@@ -26,7 +27,7 @@ module.exports = {
   siteMetadata: {
     title: `Lingua Translation Bureau`,
     description: `A translation bureau`,
-    copyright: `This website is copyright 2021 Lingua & YUMA©`,
+    copyright: `This website is copyright 2021 Lingua TB & YUMA©`,
     contact: `info@example.com`,
     siteUrl: `https://example.com`,
     orgNumber: `112233-4455`,

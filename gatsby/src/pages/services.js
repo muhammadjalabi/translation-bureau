@@ -1,7 +1,13 @@
 import React from 'react'
+import { Seo } from '../components'
 
 function ServicesPage() {
-  return <p>ServicesPage</p>
+  return (
+    <>
+      <Seo title="Services" />
+      <p>ServicesPage</p>
+    </>
+  )
 }
 
 export default ServicesPage
