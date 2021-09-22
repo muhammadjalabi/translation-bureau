@@ -1,0 +1,50 @@
+{
+  "name": "translation-bureau",
+  "private": true,
+  "description": "A website for a translation bureau in Sweden, built from gatsby-starter-hello-word.",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.13.2",
+    "bootstrap": "^5.1.1",
+    "dotenv": "^10.0.0",
+    "gatsby": "^3.13.1",
+    "gatsby-plugin-image": "^1.14.0",
+    "gatsby-plugin-styled-components": "^4.14.0",
+    "gatsby-source-sanity": "^7.0.7",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.6.3",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
